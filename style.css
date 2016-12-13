@@ -1,0 +1,64 @@
+#main {
+	display: flex;
+}
+
+/*#time {
+	height: 750px;
+	width: 75px;
+}*/
+
+.timeSlotRound {
+	height: 30px;
+	font-size: 16px;
+	text-align: right;
+	width: 70px;
+}
+
+.timeSlotHalf {
+	height: 30px;	
+	font-size: 14px;
+	text-align: right;
+	color: gray;
+	width: 70px;
+}
+
+#event {
+	height: 720px;
+	width: 620px;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+#subEvent {
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #D3D3D3;
+	height: 720px;
+	width: 620px;
+}
+
+.subEventSlot {
+	display: inline-flex;
+	position: absolute;
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-color: #778899;
+	border-width: thin;
+}
+
+.scheduledEvent {
+	display: inline-block;
+	color: #32CD32;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.boundary {
+	width: 10px;
+	background-color: #32CD32;
+}
+
+.eventLocation {
+	margin-left: 5px;
+	display: block;
+}
